@@ -1,0 +1,98 @@
+
+
+.text-decoration{
+    text-decoration: none;
+    color: black;
+}
+.card{
+ border-radius: 10%;
+
+}
+/* .fill-white{
+    fill: lightgray;
+} */
+/* .start-50{
+    left:55%;
+} */
+/* .w-10{
+    width:10%;
+  } */
+  .w-and-h-circle{
+  width: 90px;
+  height: 90px;;
+  }
+ .cursor{
+    cursor: pointer;
+ }
+
+.card:hover .text-decoration{
+    background: linear-gradient(-45deg, #56C2FF 20%, #007EC6 100%);
+/* background-color:rgba(10, 108, 189, 0.5); */
+/* background-color: linear-gradient(rgb(243, 245, 247), rgb(102, 20, 14)) ; */
+color: white ;
+text-decoration: none;
+border-radius: 10%;
+/* font-size: 18px; */
+/* transform: scale(1.1); */
+/* width: 350px; */
+
+}
+.LinkHandel{
+    margin-inline:auto;
+   
+    font-size: 24px;
+    
+    
+}
+/* .child{
+    background-color: red;
+} */
+/* .my-opacity-img{
+    position:absolute;
+    left:0;
+    top:0;
+    opacity: 0.15;
+} */
+
+.img-box img {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    transition: transform 0.5s;
+}
+/* .img-box img:hover {
+transform: scale(1.12);
+} */
+.img-box{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    overflow: hidden;
+}
+.icon{
+    border-radius: 50%;
+    /* border: 0; */
+   width: 200px;
+    /* margin: 20% 30px; */
+    padding: 50%;
+    /* background-color: aqua; */
+    /* font-size: 24px; */
+    overflow: hidden;
+}
+.icon i{
+    /* width: 100%; */
+    border-radius: 50%;
+    font-size: 38px;
+
+    color: #007EC6 ;
+    width: 100%;
+}
+.icon a{
+    border-radius: 50%;
+    width: 100%;
+    /* border: #007EC6; */
+}
+
+/* Styling for the card link */
+
+.DiscColor{
+    color: #007EC6;
+}

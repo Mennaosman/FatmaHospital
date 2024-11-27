@@ -1,0 +1,12 @@
+.counter-section{
+    background:  linear-gradient(-45deg, #56C2FF 20%, #007EC6 100%);;
+}
+.counter-container{
+padding-block: 50px  ;
+}
+.counter{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    
+}

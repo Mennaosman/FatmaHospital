@@ -1,0 +1,52 @@
+><app-categories-slider [Category]="Category_Name"></app-categories-slider>
+
+<div class="container bg-light my-5 position-relative">
+    <div class="section-title m-auto text-center py-4">
+      <h2 id="clients">قسم الاشعه</h2>
+    </div>
+    
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col" *ngFor="let xray of xrays">
+        <div class="card clients-card " dir="rtl">
+     
+      
+            <figure class="img-box">
+                <img class="card-img-top " src={{xray.imgsrc}} alt="Blog">
+            </figure>
+     
+          <div class="card-body">
+            <h5 class="card-title">{{xray.department}}</h5>
+            <!-- <p class="card-text">{{xray.description}}</p> -->
+            <!-- <button type="button" class="btn btn-outline-primary py-1 px-2  btn-sky  " 
+            [name]="xray.name" 
+            [id]="xray.id"  
+            (click)="handleClick($event, xray.id)" 
+            data-bs-toggle="modal" 
+            data-bs-target="#exampleModal">
+      <div class="card-body">
+        <h5 class="card-title">{{xray.name}}</h5>
+      </div>
+    </button>         -->
+   </div>
+          <!-- Modal -->
+       
+        </div>
+  
+  
+        
+      </div>
+      </div>
+      </div>
+  
+  <!-- read more bottom -->
+  <!-- <div class="LinkHandel">
+      <a class=" btn btn-outline-primary px-0" routerLink="xrays"   routerLinkActive="ActiveLink">..... للمزيد</a> 
+  </div>
+      </div>
+  
+  
+  
+  
+      <div class="card" style="width: 18rem;">
+     
+      </div> -->

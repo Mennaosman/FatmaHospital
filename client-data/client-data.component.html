@@ -1,0 +1,78 @@
+
+<div class="container bg-light my-5 position-relative">
+  <div class="section-title m-auto text-center py-4">
+    <h2 id="clients">العملاء</h2>
+  </div>
+  
+  <div class="row row-cols-1 row-cols-md-3 g-3">
+    <div class="col" *ngFor="let client of clients">
+      <div class="card clients-card "dir="rtl">
+   
+     
+          <!-- <figure class="img-box">
+              <img class="card-img-top " src={{client.imgsrc}} alt="Blog">
+          </figure> -->
+          <figure class="img-box w-25">
+            <div class="icon "><a href="" ><i class={{client.imgsrc}}></i>   </a></div>
+          </figure>
+  
+     
+        <div class="card-body">
+          <h5 class="card-title">{{client.name}}</h5>
+          <p class="card-text">{{client.description}}</p>
+          <button type="button" class="btn btn-outline-primary py-1 px-2  btn-sky  " 
+          [name]="client.name" 
+          [id]="client.id"  
+          (click)="handleClick($event, client.id)" 
+          data-bs-toggle="modal" 
+          data-bs-target="#exampleModal">
+    <div class="card-body">
+      <h5 class="card-title">{{client.name}}</h5>
+    </div>
+  </button>        
+ </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">{{client.name}}</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+           
+              <div class="modal-body">
+                <!-- Display content dynamically based on the button clicked -->
+                <p *ngFor="let item of modalContent">{{item}}</p>
+              </div>
+             
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+
+
+      
+    </div>
+
+<!-- read more bottom -->
+<!-- <div class="LinkHandel">
+    <a class=" btn btn-outline-primary px-0" routerLink="clients"   routerLinkActive="ActiveLink">..... للمزيد</a> 
+</div>
+    </div>
+
+
+
+
+    <div class="card" style="width: 18rem;">
+   
+    </div> -->

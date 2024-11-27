@@ -1,0 +1,44 @@
+.height{
+    height:230px;
+    /* opacity: 0.7; */
+}
+.slider-opacity{
+    background: hsla(0, 0%, 1%, 0.5);
+    padding-left: 1rem;
+    padding-right: 1rem;
+	padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
+}
+.text-decoration{
+    text-decoration: none;
+}
+.fill-white{
+    fill: lightgray;
+}
+.start-50{
+    left:55%;
+}
+.w-10{
+    width:10%;
+  }
+  .w-and-h-circle{
+  width: 90px;
+  height: 90px;;
+  }
+  .card{
+    background-color: rgb(253, 252, 255);
+  }
+.clients-card:hover{
+
+background-color: rgb(99, 136, 255);
+
+
+}
+.my-opacity-img{
+    position:absolute;
+    left:0;
+    top:0;
+    opacity: 0.15;
+}
+
+

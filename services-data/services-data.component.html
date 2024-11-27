@@ -1,0 +1,55 @@
+<div class="container  my-5 position-relative ">
+    <div class="section-title m-auto text-center py-4 DiscColor">
+        <h2>الخدمات المتاحه بالمستشفي</h2>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 ">
+
+      <div class="col" *ngFor="let service of services">
+            <div class="card clients-card cursor"  routerLink={{service.routeractive}} style="" dir="rtl">
+                <div class="text-decoration">
+                        
+                          <figure class="img-box w-25">
+                            <div class="icon "><a href="" ><i class={{service.imgsrc}}></i>   </a></div>
+                          </figure>
+                  
+                        <div class="card-body">
+                          <h5 class="card-title">{{service.name}}</h5>
+                          <p class="">{{service.description}}</p>
+                        </div>         
+                </div>
+
+        
+                </div>
+        </div>
+        
+        </div> 
+<!-- read more bottom -->
+    <!-- <div class="LinkHandel">
+        <a class=" btn btn-outline-primary px-4 py-2 mx-auto" routerLink="services" routerLinkActive="ActiveLink">..... للمزيد</a> 
+
+    </div> -->
+</div>
+
+<!-- <div class="services-container">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-4">
+           <div class="row"></div>
+           <div class="row"></div>
+           <div class="row"></div>
+      </div>
+      <div class="col-md-4">
+
+      </div>
+      <div class="col-md-4">
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row"></div>
+      </div>
+        
+      </div>
+        
+      </div>
+ </div> -->
+

@@ -1,0 +1,47 @@
+
+
+.text-decoration{
+    text-decoration: none;
+    color: black;
+}
+.card{
+ border-radius: 10%;
+
+}
+/* .fill-white{
+    fill: lightgray;
+} */
+/* .start-50{
+    left:55%;
+} */
+/* .w-10{
+    width:10%;
+  } */
+  .w-and-h-circle{
+  width: 90px;
+  height: 90px;
+  }
+ 
+
+.card:hover .text-decoration{
+
+background-color:rgba(10, 108, 189, 0.5);
+/* background-color: linear-gradient(rgb(243, 245, 247), rgb(102, 20, 14)) ; */
+color: white ;
+text-decoration: none;
+border-radius: 10%;
+font-size: 18px;
+/* width: 350px; */
+
+}
+/* .child{
+    background-color: red;
+} */
+/* .my-opacity-img{
+    position:absolute;
+    left:0;
+    top:0;
+    opacity: 0.15;
+} */
+
+
